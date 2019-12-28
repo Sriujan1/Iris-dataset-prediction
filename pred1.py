@@ -1,18 +1,3 @@
-"""import pandas as pd
-
-data = pd.read_csv('weather.csv')
-
-features = data.columns
-
-x = data[data.columns[:-1]]
-y = data[data.columns[-1]]
-
-print(x)
-print(y)
-#print(data.readline())
-#print(data)
-"""
-
 import sklearn
 import joblib
 from sklearn.datasets import load_iris
